@@ -12,7 +12,7 @@ const ReactProjects = () => {
       <div className="projects">
         {reactProjects.map(item => (
         <div className="project-item">
-          <a href="/">
+          <a href={item.url} target="_blank" rel="noreferrer">
             <img src={item.img} alt="" />
           </a>
           <div className="title">

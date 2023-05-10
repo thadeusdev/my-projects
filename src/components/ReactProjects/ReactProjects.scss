@@ -17,12 +17,16 @@
 
     .projects{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        // justify-content: center;
         // gap: 20px;
 
         .project-item{
+            -webkit-box-shadow: 1px 6px 14px -1px #15151aab; 
+            box-shadow: 1px 6px 14px -1px #15151aab;
             height: 350px;
+            width: 350px;
             margin: 20px 10px;
             // border: 2px solid rgb(243, 242, 242);
             border-radius: 10px;
