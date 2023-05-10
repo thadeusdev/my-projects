@@ -52,3 +52,25 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px){
+    .reactProjects{
+        overflow-x: hidden;
+        padding: 20px;
+        margin: 0;
+
+        .header{
+            h2{
+                font-size: 46px;
+            }
+        }
+        .projects{
+            .project-item{
+                a{
+                    img{}
+                }
+                .title{}
+            }
+        }
+    }
+}
