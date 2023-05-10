@@ -1,0 +1,50 @@
+.reactProjects{
+    margin: 0px 110px;
+    padding: 40px 0px 60px 0px;
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        h2{
+            font-size: 65px;
+            text-transform: capitalize;
+            color: #f6e8f8;
+        }
+    }
+
+    .projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // gap: 20px;
+
+        .project-item{
+            height: 350px;
+            margin: 20px 10px;
+            // border: 2px solid rgb(243, 242, 242);
+            border-radius: 10px;
+            overflow: hidden;
+
+            a{
+                img{
+                    width: 100%;
+                    transition: all 10s ease;
+                    border-radius: 10px;
+                }
+                img:hover{
+                    transform: translateY(-100%);
+                }
+            }
+
+            .title{
+                position: sticky;
+                z-index: 999;
+                background-color: red;
+                span{}
+            }
+        }
+    }
+}
